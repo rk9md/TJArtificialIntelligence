@@ -1,0 +1,1 @@
+f = open("scrabble.txt", mode='r')

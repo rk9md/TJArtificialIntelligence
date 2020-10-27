@@ -1,0 +1,5 @@
+print("What is your name?")
+name = input()
+f = open("names.txt", 'r+')
+print("Previous User(s): " + str(f.readline()), end=" ")
+f.write(name+" ")
