@@ -1,7 +1,15 @@
 import sys, time, msvcrt
 '''
+This script will play out a human vs computer game of tic tac toe. Optional Command line arguments are the starting board and the piece the human will be. 
+The script assumes the standard rules of tic tac toe (X moves first, first player to three in a row wins, players alternate turns, etc). 
 
-
+The board is represented by a string of length 9 consisting of periods, X’s, and O’s.
+The periods represent empty spaces, the X’s represent where the X player has placed their piece,
+and the O represents where the O player has placed their piece. 
+Each spot on the board is also referred to by its index which is given as follows:
+0 1 2
+3 4 5
+6 7 8
 '''
 
 # Number of rows/cols
